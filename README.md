@@ -6,12 +6,13 @@ This allows you to have complex continuous scalling regions, and not only vertic
 For example, if you have a walkable area in the lower part of the room, far away, and you can climb and get closer to the camera, you can set a point on the lower part of the screen of scale 50, and another point with scale 100 on the upper part of the room.
 
 ## Instalation
-Import ChoquinLabs
+Import `ChoquinLabs Continous Scalling.scm`
 
 
 ## Usage
 
-On each room load you want to define Complex Continuous Scalling:
+On each *room load* you want to define Complex Continuous Scalling, create a `CL_ContinuousScaling` object, and add 2 or more points with scale values.
+Example:
 ```
 function room_Load()
 {
